@@ -1,5 +1,9 @@
 import { HardhatUserConfig } from "hardhat/config";
+import * as dotenv from 'dotenv'
 import "@nomicfoundation/hardhat-toolbox";
+
+dotenv.config();
+
 const { API_URL, PRIVATE_KEY } = process.env;
 
 const config: HardhatUserConfig = {
