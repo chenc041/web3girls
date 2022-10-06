@@ -1,11 +1,11 @@
 import { ethers } from "hardhat";
 
 async function main() {
-  const Lock = await ethers.getContractFactory("Web3Girls");
-  const lock = await Lock.deploy();
-  await lock.deployed();
+  const Web3Girls = await ethers.getContractFactory("Web3Girls");
+  const web3Girls = await Web3Girls.deploy();
+  await web3Girls.deployed();
 
-  console.log(`Web3Girls deployed to ${lock.address}`);
+  console.log(`Web3Girls deployed to ${web3Girls.address}`);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
