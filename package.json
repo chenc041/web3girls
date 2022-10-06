@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish:lock": "npx hardhat --network goerli run scripts/deploy.ts",
-    "publish:web3": "npx hardhat --network goerli run scripts/deploy-web3girls.ts"
+    "publish:study": "npx hardhat --network goerli run scripts/deploy.ts",
+    "publish:web3girls": "npx hardhat --network goerli run scripts/deploy-web3girls.ts"
   },
   "author": "",
   "license": "ISC",

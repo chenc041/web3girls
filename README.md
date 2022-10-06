@@ -11,3 +11,7 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.ts
 ```
+
+```shell
+测试 合约地址 0x8ec00D59370d8BD2dA3FF31D19BA45afd57eC181
+```

@@ -11,7 +11,7 @@ const config: HardhatUserConfig = {
   defaultNetwork: "goerli",
   networks: {
     hardhat: {},
-    ropsten: {
+    goerli: {
       url: API_URL,
       accounts: [`0x${PRIVATE_KEY}`]
     }

@@ -6,10 +6,10 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
-contract Web3Girls is ERC721,  Ownable {
+contract StudyContract is ERC721,  Ownable {
   constructor()ERC721("Day of Web3Girls NFT", "DoW3G"){
     _tokenCount = 0;
-    _baseTokenUri = "https://web3honey.infura-ipfs.io/ipfs/QmXDhshZbPc9aCEmaGxdE9nc7fT4aLVgvZkxgXFRrW37wn";
+    _baseTokenUri = "https://web3honey.infura-ipfs.io/ipfs/QmTNPrfNHPxuGu27izmtwijCrCp2Ra1D3woRPAKSEKTmwk";
   }
 
   uint256 _tokenCount;
