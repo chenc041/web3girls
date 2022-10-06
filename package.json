@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish:study": "npx hardhat --network goerli run scripts/deploy.ts",
-    "publish:web3girls": "npx hardhat --network goerli run scripts/deploy-web3girls.ts"
+    "publish:web3girls": "npx hardhat --network mainnet run scripts/deploy-web3girls.ts"
   },
   "author": "",
   "license": "ISC",

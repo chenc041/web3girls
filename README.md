@@ -14,4 +14,6 @@ npx hardhat run scripts/deploy.ts
 
 ```shell
 测试 合约地址 0x8ec00D59370d8BD2dA3FF31D19BA45afd57eC181
+主网 合约地址 0xd96C1Bf1aCdbb0263E0fde36aB6B081113F35A12
+
 ```

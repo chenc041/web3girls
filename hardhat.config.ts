@@ -4,7 +4,7 @@ import "@nomicfoundation/hardhat-toolbox";
 
 dotenv.config();
 
-const { API_URL, PRIVATE_KEY } = process.env;
+const { API_URL, PRIVATE_KEY, TEST_API_URL, TEST_PRIVATE_KEY  } = process.env;
 
 const config: HardhatUserConfig = {
   solidity: "0.8.17",
@@ -12,6 +12,10 @@ const config: HardhatUserConfig = {
   networks: {
     hardhat: {},
     goerli: {
+      url: TEST_API_URL,
+      accounts: [`0x${TEST_PRIVATE_KEY}`]
+    },
+    mainnet: {
       url: API_URL,
       accounts: [`0x${PRIVATE_KEY}`]
     }
