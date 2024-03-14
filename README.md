@@ -1,5 +1,5 @@
-# 简单的 MINT NFT 合约
-- 对应的项目 https://web3honey.io/
+# A simple NFT Contract
+- project website https://web3honey.io/
 
 This simple project a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
